@@ -1,0 +1,32 @@
+.float-contect{
+    background-color: #113012;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    border-top: 2px solid #f5dd79;
+    height: 80px;
+    bottom: 0%;
+
+}
+.col-inner{
+    width: 100%;
+    background-color: #45A349;
+    border: 1px solid #f5dd79;
+    border-radius: 10px;
+   margin-top: 15px;
+
+}
+
+.format-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F6DD7C;
+}
+.row{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.format-img{
+    width: 15%;
+    height: 15%;;
+}

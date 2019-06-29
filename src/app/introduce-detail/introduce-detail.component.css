@@ -1,0 +1,30 @@
+.bacground{
+    background-image: url("../../assets/background-m2.jpg");
+    width: 100%;
+   background-size: 100%;
+   background-repeat: no-repeat;
+    height: 800px;
+
+}
+.format-img{
+    width: 60%;
+    height: 60%;
+}
+
+p{
+    text-align: center;
+    color: #194d29;
+}
+.h5{
+    color: #86b765 !important;
+}
+p.format-text{
+    font-size: 20px;
+    text-align: start;
+    font-weight: 450
+}
+.col-2{
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}

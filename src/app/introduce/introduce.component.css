@@ -1,0 +1,8 @@
+.background{
+    width: 100% !important;
+    height: 100% !important;
+}
+::ng-deep  iframe{
+    height: 100vh !important;
+width :  100% !important;
+    }

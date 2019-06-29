@@ -1,3 +1,4 @@
-<p>
-  introduce works!
-</p>
+<div class="w-100 ">
+  <youtube-player [videoId]="id" (ready)="savePlayer($event)" (change)="onStateChange($event)">
+  </youtube-player>
+</div>

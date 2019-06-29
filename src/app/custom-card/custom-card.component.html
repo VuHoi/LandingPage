@@ -1,3 +1,43 @@
-<p>
-  custom-card works!
-</p>
+<div class="row ">
+  <div class=" col col-6 ">
+    <div class="wrap-card mr-4">
+      <div class="wrap-img pt-3 pl-2">
+        <img class="img-format" src="../../assets/qua-tang-20.png">
+      </div>
+      <div class="only">
+        <span>Duy Nhất Ngày 07-07-2019</span>
+      </div>
+      <p class="wrap-text text-center ">
+        <span class="format-text"> <strong>Còn lại</strong></span>
+        <span class="format-number">11</span>
+        <span class="format-text"><strong>Ngày</strong></span>
+      </p>
+      <div class="d-flex justify-content-center w-100">
+        <button [@Animationbtn1]="{value:statebtn1} " (@Animationbtn1.start)="onAnimationStartedbtn1($event)"
+          (@Animationbtn1.done)="onAnimationDonebtn1($event)" class="format-btn btn" type="button">Đăng ký tham gia sự
+          kiện</button>
+      </div>
+    </div>
+
+  </div>
+  <div class=" col col-6 ">
+    <div class="wrap-card ml-4">
+      <div class="wrap-img pt-3 pl-3">
+        <img class="img-format" src="../../assets/giu-cho.png">
+      </div>
+      <p class="wrap-text text-center ">
+        <span class="format-number">321</span>
+      </p>
+      <div class="format text-center pt-4">
+        <p>Khách hàng giữ chỗ thành công</p>
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button [@Animationbtn2]="{value: statebtn2} " (@Animationbtn2.start)="onAnimationStartedbtn2($event)"
+          (@Animationbtn2.done)="onAnimationDonebtn2($event)" class="format-btn btn" type="button">Đăng ký tư
+          vấn</button>
+      </div>
+    </div>
+
+
+  </div>
+</div>

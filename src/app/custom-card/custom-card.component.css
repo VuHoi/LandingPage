@@ -1,0 +1,61 @@
+.wrap-card{
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 5px #ddd;
+    height: 450px;
+    position: relative;
+}
+.row{
+    margin: 10%;
+}
+.col{
+    padding: 10px;
+}
+.img-format{
+    width: 70%;
+    height: 50%;
+}
+.only{
+   padding: 20px;
+}
+.only span{
+    background-color: #0C752F;
+    color: #E9D778;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.format-text{
+     color: #003300;
+     font-size: px;
+}
+.format-number{
+    font-size: 120px;
+    color: #0C752F;
+    text-shadow: 0px 2px 3px #F6DD7C;
+    font-weight: 700;
+    padding: 5px 20px;
+    animation: text-shadow-drop-center 1s linear infinite both;
+}
+.format-btn{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #003300;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+}
+.format p{
+    
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #003300;
+
+}

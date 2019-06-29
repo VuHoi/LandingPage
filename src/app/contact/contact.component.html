@@ -1,3 +1,32 @@
-<p>
-  contact works!
-</p>
+<div class="float-contect ">
+  <div class="row">
+    <div class="  col-4 ">
+      <div class="col-inner " [@contact1]="{value: state1}" (@contact1.start)="onAnimationStarted1($event)"
+        (@contact1.done)="onAnimationDoned1($event)">
+        <button type="button" class="btn  w-100">
+          <img class=" format-img pr-4" src="../../assets/phone.png">
+          <span class="text-center format-text">0917.795.005</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="col-inner" [@contact2]="{value: state2}" (@contact2.start)="onAnimationStarted2($event)"
+        (@contact2.done)="onAnimationDoned2($event)">
+        <button type="button" class="btn  w-100">
+          <img class=" format-img pr-4" src="../../assets/phone.png">
+          <span class="text-center  format-text">0917.795.005</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-4 ">
+      <div class="col-inner " [@contact3]="{value: state3}" (@contact3.start)="onAnimationStarted3($event)"
+        (@contact3.done)="onAnimationDoned3($event)">
+        <button type="button" class="btn  w-100">
+          <img class=" format-img pr-4" src="../../assets/phone.png">
+          <span class="text-center format-text">0917.795.005</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
