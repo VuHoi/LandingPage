@@ -19,10 +19,10 @@ export class SlideComponent implements OnInit {
     // scrollbar: false,
     //  navigation: true,
     //pagination: false,
-    // autoplay: {
-    //   delay: 1000,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
     // effect: 'coverflow',
     // grabCursor: true,
     // centeredSlides: true,

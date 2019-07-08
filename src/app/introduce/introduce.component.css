@@ -4,5 +4,8 @@
 }
 ::ng-deep  iframe{
     height: 100vh !important;
-width :  100% !important;
+    width :  100% !important;
+    }
+    youtube-player {
+        width: 100% !important;
     }

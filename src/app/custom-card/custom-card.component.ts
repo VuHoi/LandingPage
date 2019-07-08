@@ -66,8 +66,8 @@ export class CustomCardComponent implements OnInit {
 
 
     setTimeout(() => {
-      console.log(event);
-      console.log(this.statebtn1);
+      // console.log(event);
+      // console.log(this.statebtn1);
       this.statebtn1 === 'start-state-btn1' ? this.statebtn1 = 'loop-state-btn1' : this.statebtn1 = 'start-state-btn1';
 
     }, 1);
@@ -86,8 +86,7 @@ export class CustomCardComponent implements OnInit {
 
 
     setTimeout(() => {
-      console.log(event);
-      console.log(this.statebtn2);
+
       this.statebtn2 === 'start-state-btn2' ? this.statebtn2 = 'loop-state-btn2' : this.statebtn2 = 'start-state-btn2';
 
     }, 0);

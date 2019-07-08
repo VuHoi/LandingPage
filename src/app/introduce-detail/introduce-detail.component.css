@@ -1,4 +1,6 @@
-.bacground{
+
+@media screen and (min-width: 1024px){
+   .bacground{
     background-image: url("../../assets/background-m2.jpg");
     width: 100%;
    background-size: 100%;
@@ -6,11 +8,22 @@
     height: 800px;
 
 }
+}
+
+@media screen and (max-width: 1024px){
+   .bacground{
+   
+   background: linear-gradient(white,white,white, white, #113012);
+}
+}
 .format-img{
     width: 60%;
     height: 60%;
 }
-
+.format-title{
+    width: 90%;
+    height: 90%;
+}
 p{
     text-align: center;
     color: #194d29;
